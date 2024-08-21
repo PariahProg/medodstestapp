@@ -1,0 +1,19 @@
+{
+    "accessTokenSign": "SuchASecretSign >'-'<",
+    "refreshTokenSign": "FarMoreSecretSign ^-^",
+    "accessTokenExpIn": 3600,
+    "refreshTokenExpIn": 604800,
+    "db":{
+        "user": "postgres",
+        "password": "postgres",
+        "dbname": "medods",
+        "ssl": "disable"
+    },
+    "bcryptCost": 10,
+    "mailer":{
+        "user": "example@example.ru",
+        "password": "password",
+        "host": "smtp.yandex.ru",
+        "port": 587
+    }
+}
